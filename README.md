@@ -60,3 +60,8 @@ This project develops a predictive model for systolic blood pressure using a glo
    - Calculated 95% confidence intervals
 
 ## Final Model Equation
+log(Systolic BP) = β₀ + β₁(Age) + β₂(Age²) + β₃(Sex) + β₄(BMI) + β₅(BMI²)
++ β₆(Smoking) + β₇(Physical Activity) + β₈(Diet Salt)
++ β₉(Stress) + β₁₀(Diabetes) + β₁₁(Heart Rate)
++ β₁₂(Heart Rate²) + β₁₃(HTN Aware)
++ β₁₄(Country Prevalence) + ε
